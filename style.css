@@ -1,0 +1,201 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+
+/* Container */
+
+.container {
+    width: 1440px;
+    height: 100%;
+
+    padding: 200px;
+    margin: 0 auto;
+}
+
+/* Upper Stuff */
+
+.upper_stuff {
+    display: flex;
+
+    width: 100%;
+
+    margin-bottom: 50px;
+}
+
+.left_side {
+    max-width: 30%;
+
+    display: block;
+    float: left;
+    
+}
+
+.left_side_p {
+    line-height: 1.5em;
+}
+
+/* Ratings */
+
+.rating {
+    display: block;
+    float: right;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 25px;
+    margin: auto;
+}
+
+.reviews {
+    width: 500px;
+    height: 30px;
+
+    border-radius: 0.5em;
+
+    background: hsl(300, 24%, 96%);
+
+    padding-top: 1.5em;
+    margin-bottom: 20px;
+}
+
+.guru {
+    width: 500px;
+    height: 30px;
+
+    border-radius: 0.5em;
+
+    background: hsl(300, 24%, 96%);
+
+    padding-top: 1.5em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.best_tech {
+    width: 500px;
+    height: 30px;
+
+    border-radius: 0.5em;
+
+    background: hsl(300, 24%, 96%);
+
+    padding-top: 1.5em;
+    margin-left: 100px;
+}
+
+/* Stars */
+
+.stars {
+    float: left;
+
+    margin-left: 10px;
+}
+
+/* People Review */
+
+.smith  {
+    float: left;
+
+    width: 27%;
+    height: 250px;
+
+    border-radius: 1em;
+
+    background-color: hsl(300, 43%, 22%);
+
+    padding-top: 30px;
+}
+
+.roberts {
+    float: left;
+
+    width: 27%;
+    height: 250px;
+
+    border-radius: 1em;
+
+    background-color: hsl(300, 43%, 22%);
+
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.wallace {
+    float: left;
+
+    width: 27%;
+    height: 250px;
+
+    border-radius: 1em;
+
+    background-color: hsl(300, 43%, 22%);
+
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+/* Text in people review*/
+
+h4 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+
+    margin-right: 90px;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.people_reviews {
+    color: hsl(0, 0%, 100%);
+
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* Images */
+
+.images {
+    float: left;
+
+    display: block;
+
+    width: 55px;
+    height: auto;
+
+    border-radius: 50%;
+
+    margin-left: 50px;
+}
+
+/* Footer */
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* For phones */
+
+@media only screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
+}
